@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/Properties.php';
+require __DIR__ . '/Properties.php';
 
 class SoldProperties extends Properties{
     public $sellingPrice;
