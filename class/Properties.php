@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . '/trait/address.php';
 class Properties{
     public $size;
     public $isolation;
