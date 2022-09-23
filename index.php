@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/class/User.php';
-require __DIR__ . '/class/Properties.php';
+require __DIR__ . '/class/Soldproperties.php';
+require __DIR__ . '/class/Rentedproperties.php';
 
 

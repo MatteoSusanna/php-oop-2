@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/Properties.php';
 
-class SoldProperties extends Properties{
+class Soldproperties extends Properties{
     public $sellingPrice;
     
     public function __construct($size, $isolation, $design, $sellingPrice){
