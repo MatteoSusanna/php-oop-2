@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/Properties.php';
+require_once __DIR__ . '/Properties.php';
 
 class Rentproperties extends Properties{
     public $rent;
