@@ -19,7 +19,7 @@ $casaInVendita = new Soldproperties('70mq', 'Termica', 'Moderna', '100000','http
 echo $casaInVendita->getSold();
 
 
-$casaInAffitto = new Rentproperties('40mq', 'termica', 'moderno', '500','https://images-1.casa.it/360x265/listing/785ef9807fc52b4edace578a5fdff74e');
+$casaInAffitto = new Rentproperties('40mq', 'Termica', 'Moderno', '500','https://images-1.casa.it/360x265/listing/785ef9807fc52b4edace578a5fdff74e');
 echo $casaInAffitto->getSold();
 
 ?>
