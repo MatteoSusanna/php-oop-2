@@ -11,4 +11,12 @@ class Rentproperties extends Properties{
         parent::__construct($size, $isolation, $design, $url);
     }
 
+    public function getSold(){
+        return '<h2>Casa In Affitto</h2>' . 
+        "<img src='$this->url'>" . '<br>'. 
+        'Design:' . $this->design . '<br>'. 
+        'Grandezza :'. $this->size . '<br>' . 
+        'Prezzo di vendita: ' . $this->rent;
+    }
+
 }

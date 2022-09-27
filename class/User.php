@@ -28,4 +28,5 @@ class User {
     public function getPhone(){
         return $this->phone;
     }
+
 }
